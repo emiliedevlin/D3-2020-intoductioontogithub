@@ -1,0 +1,80 @@
+h1 {
+  color: rgb(32, 32, 32);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+}
+
+p  {
+  color: rgb(64, 64, 64);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
+}
+
+body {
+background:rgb(255, 230, 230);
+}
+
+.ho{
+  color: rgb(200, 100, 50);
+}
+
+background{
+  color: rgb(300, 300, 300);
+}
+
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  display: block;
+  padding: 2em;
+}
+
+
+#section01{
+padding: 1em;
+min-height: 40vh;
+max-height: 100vh;
+flex-wrap: wrap;
+position: relative;
+top:2px;
+bottom: 1px;
+}
+
+#section02{
+margin: 15px 0px 10px 6px;
+min-height: 30vh;
+padding-bottom: 15em;
+}
+
+
+#section03 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+
+}
+
+.coqphoto{
+  height: 300px;
+}
+
+.pearlphoto{
+  height: 200px;
+  position: relative;
+  bottom: 2px;
+}
