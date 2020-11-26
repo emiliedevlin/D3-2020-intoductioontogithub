@@ -44,3 +44,34 @@ p{
   color: rgb(69, 69, 69);
 
 }
+
+
+
+
+
+/* 2eme text*/
+.titrefox {
+  font-size: 30px;
+  color: rgb(102, 102, 115);
+}
+
+.textfox {
+  color: rgb(102, 102, 109);
+}
+
+
+
+
+
+/* 3eme text*/
+
+.titredog {
+  color: white;
+  font-size: 40px;
+}
+
+
+
+.textdog {
+  color: white;
+}

@@ -1,3 +1,26 @@
+
+body {
+background: rgb(112;128;144);
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 20px;
+}
+
+div {
+  display: block;
+}
+.partie01{
+  padding: 1px 10px 10px 0px;
+  background:rgb(255, 230, 230)
+}
+
+.conatinerpartie1 {
+  width: auto;
+  height: 100px;
+}
+
+
+
 h1 {
   color: rgb(32, 32, 32);
   text-align: center;
@@ -16,9 +39,7 @@ p  {
   height: 100px;
 }
 
-body {
-background:rgb(255, 230, 230);
-}
+
 
 .ho{
   color: rgb(200, 100, 50);
@@ -29,35 +50,25 @@ background{
 }
 
 
-nav {
-  width: 100%;
-}
+
 
 nav ul {
   display: flex;
   justify-content: space-around;
-}
-
-nav a {
-  display: block;
-  padding: 2em;
+  list-style-type: none;
 }
 
 
-#section01{
-padding: 1em;
-min-height: 40vh;
-max-height: 100vh;
-flex-wrap: wrap;
-position: relative;
-top:2px;
-bottom: 1px;
+
+
+#h1{
+padding-top: 0em;
 }
 
 #section02{
-margin: 15px 0px 10px 6px;
+margin: 65px 0px 10px 6px;
 min-height: 30vh;
-padding-bottom: 15em;
+padding-bottom: 0em;
 }
 
 
@@ -77,4 +88,66 @@ padding-bottom: 15em;
   height: 200px;
   position: relative;
   bottom: 2px;
+
+}
+
+
+/* DEUXIÈMRE SECTION*/
+
+.partie02 {
+  padding: 30px 20px 200px 30px;
+  background-image: url('images/fox jump.gif');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.container02 {
+  width: 202px;
+  height: 200px;
+}
+
+.titrefox {
+
+  margin-bottom: 20px;
+  text-align: left;
+
+
+
+}
+
+.textfox {
+  margin-top: 0em;
+  column-count: 4;
+  column-fill: balance;
+  width: 50%;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+/* TROISÈME SECTION*/
+.partie03 {
+  padding: 30px 20px 200px 30px;
+  background-color: rgb(255, 50, 40);
+  background-image: url('images/dog painting.2psd.jpg');
+  background-size: cover;
+
+}
+
+.container03 {
+  width: 102px;
+  height: 300px;
+}
+
+.legroupedog{
+  margin-left: 100px;
+}
+
+.textdog {
+  font-size: 30px;
 }
